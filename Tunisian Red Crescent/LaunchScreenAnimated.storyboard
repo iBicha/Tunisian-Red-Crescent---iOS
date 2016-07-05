@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fjo-Xu-cW7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen Controller-->
+        <scene sceneID="rbD-Wc-rnh">
+            <objects>
+                <viewController id="fjo-Xu-cW7" customClass="LaunchScreenController" customModule="Tunisian_Red_Crescent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3v1-pI-ZSW"/>
+                        <viewControllerLayoutGuide type="bottom" id="1hq-zr-vsn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="Fgp-Q7-hmG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Red Crescent 512x512" translatesAutoresizingMaskIntoConstraints="NO" id="dEF-XP-wCE" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="182" y="186" width="236" height="227"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="236" id="2AK-Mu-QM2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dEF-XP-wCE" firstAttribute="top" secondItem="3v1-pI-ZSW" secondAttribute="bottom" constant="166" id="D0D-mq-vwX"/>
+                            <constraint firstItem="dEF-XP-wCE" firstAttribute="centerX" secondItem="Fgp-Q7-hmG" secondAttribute="centerX" id="gRG-pf-VFL"/>
+                            <constraint firstItem="dEF-XP-wCE" firstAttribute="centerY" secondItem="Fgp-Q7-hmG" secondAttribute="centerY" id="lOF-0h-oDr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logo" destination="dEF-XP-wCE" id="TSR-UZ-foF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFS-d7-pUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Red Crescent 512x512" width="512" height="512"/>
+    </resources>
+</document>

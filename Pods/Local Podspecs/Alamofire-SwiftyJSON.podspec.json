@@ -1,0 +1,26 @@
+{
+  "name": "Alamofire-SwiftyJSON",
+  "version": "3.0.0",
+  "summary": "Alamofire extension for serialize NSData to SwiftyJSON",
+  "homepage": "https://github.com/jregnauld/Alamofire-SwiftyJSON",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "tangplin": "tangplin@gmail.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.9",
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/jregnauld/Alamofire-SwiftyJSON.git",
+    "branch": "Alamofire-3.0"
+  },
+  "source_files": "Source/*.swift",
+  "frameworks": [
+    "Alamofire",
+    "SwiftyJSON"
+  ]
+}

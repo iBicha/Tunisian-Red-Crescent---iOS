@@ -1,0 +1,26 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+use_frameworks!
+pod 'Alamofire'
+pod 'AlamofireImage'
+pod 'AlamofireObjectMapper'
+pod 'Alamofire-SwiftyJSON', :podspec => 'https://raw.githubusercontent.com/pdutourgeerling/Alamofire-SwiftyJSON-Podspec/master/Alamofire3-SwiftyJSON.podspec'
+pod "BusyNavigationBar"
+pod 'Dollar'
+pod 'EZLoadingActivity'
+pod 'EZSwiftExtensions'
+pod 'FBSDKLoginKit'
+pod "KCFloatingActionButton"
+pod 'Kugel'
+pod 'ObjectMapper'
+pod 'PermissionScope'
+pod 'RealmSwift'
+pod 'R.swift'
+pod 'SideMenu'
+pod 'Socket.IO-Client-Swift'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+pod 'Sugar'
+pod 'SwiftyButton'
+pod 'SwiftyJSON'
+pod 'Whisper'
